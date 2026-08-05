@@ -1,52 +1,42 @@
 [
   {
-    "id": 1,
-    "name": "Wireless Mouse",
-    "category": "Electronics",
-    "price": 799,
-    "rating": 4.5,
-    "stock": 20,
-    "image": "https://picsum.photos/id/180/200/200",
-    "description": "Ergonomic wireless mouse with USB receiver."
+    "orderId": "ORD1001",
+    "product": "Wireless Mouse",
+    "quantity": 2,
+    "amount": 1200,
+    "status": "Delivered",
+    "image": "https://picsum.photos/seed/mouse/100"
   },
   {
-    "id": 2,
-    "name": "Bluetooth Headphones",
-    "category": "Electronics",
-    "price": 1999,
-    "rating": 4.7,
-    "stock": 15,
-    "image": "https://picsum.photos/id/1080/200/200",
-    "description": "Noise-cancelling over-ear Bluetooth headphones."
+    "orderId": "ORD1002",
+    "product": "Bluetooth Headphones",
+    "quantity": 1,
+    "amount": 2499,
+    "status": "Delivered",
+    "image": "https://picsum.photos/seed/headphones/100"
   },
   {
-    "id": 3,
-    "name": "Running Shoes",
-    "category": "Footwear",
-    "price": 2499,
-    "rating": 4.3,
-    "stock": 10,
-    "image": "https://picsum.photos/id/21/200/200",
-    "description": "Lightweight running shoes for everyday comfort."
+    "orderId": "ORD1003",
+    "product": "Mechanical Keyboard",
+    "quantity": 1,
+    "amount": 3799,
+    "status": "Shipped",
+    "image": "https://picsum.photos/seed/keyboard/100"
   },
   {
-    "id": 4,
-    "name": "Backpack",
-    "category": "Accessories",
-    "price": 1299,
-    "rating": 4.4,
-    "stock": 18,
-    "image": "https://picsum.photos/id/1062/200/200",
-    "description": "Water-resistant backpack with laptop compartment."
+    "orderId": "ORD1004",
+    "product": "Smart Watch",
+    "quantity": 1,
+    "amount": 1999,
+    "status": "Out for Delivery",
+    "image": "https://picsum.photos/seed/watch/100"
   },
   {
-    "id": 5,
-    "name": "Smart Watch",
-    "category": "Wearables",
-    "price": 3499,
-    "rating": 4.6,
-    "stock": 8,
-    "image": "https://picsum.photos/id/26/200/200",
-    "description": "Fitness tracking smartwatch with heart rate monitor."
+    "orderId": "ORD1005",
+    "product": "USB-C Charger",
+    "quantity": 3,
+    "amount": 2700,
+    "status": "Delivered",
+    "image": "https://picsum.photos/seed/charger/100"
   }
-]
+  ]

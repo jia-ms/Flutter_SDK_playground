@@ -1,4 +1,4 @@
-import 'package:counterapp/screens/assets_demo_screen.dart';
+/* 'package:counterapp/screens/assets_demo_screen.dart';
 import 'package:counterapp/screens/e_commerce.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/foundation.dart';
@@ -123,7 +123,8 @@ class _CounterPageState extends State<CounterPage> {
       theme: ThemeData(
         primarySwatch: Colors.green,
       ),
-      home: const UserListScreen(),
+  //    home: const UserListScreen(),
     );
   }
+  */
 
