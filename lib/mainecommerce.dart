@@ -2,12 +2,11 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-//import 'package:counterapp/screens/inherited_widgets_ex/dashbaord_page.dart';
 import 'package:counterapp/screens/inherited_widgets_ex/user_provider.dart';
-//import 'package:fluttercourseplayground/screens/navigation/home_screen0.dart';
-//import 'package:fluttercourseplayground/screens/navigation/screen_1.dart';
-import 'app1/screen/home_screen.dart';
-//import 'cookbook/demo_tab_screen.dart';
+//import 'package:counterapp/screens/navigation/home_screen0.dart';
+//import 'package:counterapp/screens/navigation/screen_1.dart';
+//import 'app1/screen/home_screen.dart';
+import 'package:counterapp/grocery_store/screens3/homescreen2.dart';
 
 void main() {
   runApp(const MyApp());
@@ -37,8 +36,35 @@ class MyApp extends StatelessWidget {
           ),
           // primarySwatch: Colors.yellow,
         ),
-        home: const HomeScreen(),
+        home: const GHomeScreen(),
       ),
     );
   }
 }
+
+/*void main() {
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        backgroundColor: Colors.red,
+        body: Center(
+          child: Text(
+            'HELLO',
+            style: TextStyle(
+              color: Colors.white,
+              fontSize: 50,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+} */
