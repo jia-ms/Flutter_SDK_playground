@@ -5,10 +5,11 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:counterapp/screens/inherited_widgets_ex/user_provider.dart';
 //import 'package:counterapp/screens/navigation/home_screen0.dart';
 //import 'package:counterapp/screens/navigation/screen_1.dart';
-//import 'app1/screen/home_screen.dart';
-//import 'package:counterapp/grocery_store/screens3/homescreen2.dart';
+import 'app1/screen/home_screen.dart';
+import 'package:counterapp/grocery_store/screens3/homescreen2.dart';
 //import 'package:counterapp/auth/login_screen.dart';
 import 'package:counterapp/screens/Counter.dart';
+import 'package:counterapp/sharedpref/homework.dart';
 
 void main() {
   runApp(const MyApp());
@@ -38,7 +39,7 @@ class MyApp extends StatelessWidget {
           ),
           // primarySwatch: Colors.yellow,
         ),
-        home: const CounterPage(),
+        home: const CartScreen(),
       ),
     );
   }
